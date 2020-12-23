@@ -17,3 +17,12 @@ output "master-account-roots" {
   description = "From the Terraform docs: 'List of organization roots. (...)'"
   value       = module.root.roots
 }
+
+output "ou-accounts" {
+  description = "From the Terraform docs: 'List of child accounts for this Organizational Unit."
+  value       = module.ou-1.accounts
+}
+output "ou-id" {
+  description = "From the Terraform docs: 'Identifier of the organization unit'"
+  value       = module.ou-1.id
+}

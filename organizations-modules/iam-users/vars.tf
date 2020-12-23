@@ -35,7 +35,7 @@ variable "path" {
 }
 
 variable "force_destroy" {
-  description = "After the terraform docs: 'When destroying this user, destroy even if it has non-Terraform-managed IAM access keys, login profile or MFA devices. Without force_destroy a user with non-Terraform-managed access keys and login profile will fail to be destroyed.'"
+  description = "From the terraform docs: 'When destroying this user, destroy even if it has non-Terraform-managed IAM access keys, login profile or MFA devices. Without force_destroy a user with non-Terraform-managed access keys and login profile will fail to be destroyed.'"
   default     = false
 }
 
