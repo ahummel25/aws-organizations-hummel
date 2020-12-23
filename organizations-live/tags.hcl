@@ -1,5 +1,5 @@
 locals {
   common_tags = {
-    Project     = "AWS Organization"
+    Project = "AWS Organization"
   }
 }
