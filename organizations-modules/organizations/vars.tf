@@ -1,6 +1,6 @@
 variable "feature_set" {
   description = "From the Terraform docs: 'Specify ALL (default) or CONSOLIDATED_BILLING.'"
-  default     = "CONSOLIDATED_BILLING"
+  default     = "ALL"
 }
 
 variable "aws_service_access_principals" {
