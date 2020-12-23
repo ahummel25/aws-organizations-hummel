@@ -3,11 +3,6 @@ output "admin_user_master-aws_iam_user-credentials" {
   value       = module.admin_user_master.aws_iam_user-credentials
 }
 
-output "admin_user_master-aws_iam_user-encrypted-password" {
-  description = "The user's credentials"
-  value       = module.admin_user_master.aws_iam_user-encrypted-password
-}
-
 output "master-account-accounts" {
   description = "From the Terraform docs: 'List of organization accounts including the master account.'"
   value       = module.root.accounts

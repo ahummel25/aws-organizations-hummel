@@ -8,8 +8,3 @@ output "aws_iam_user-credentials" {
     encrypted-secret-access-key = var.create-aws_iam_access_key ? aws_iam_access_key.this[0].encrypted_secret : null
   }
 }
-
-output "aws_iam_user-encrypted-password" {
-  description = "The credentials of a given IAM user"
-  value       = var.create-aws_iam_access_key ? aws_iam_access_key.this[0].encrypted_secret : null
-}
