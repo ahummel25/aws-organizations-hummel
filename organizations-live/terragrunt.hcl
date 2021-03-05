@@ -42,7 +42,7 @@ remote_state {
 }
 
 terraform {
-  source = "../organizations-modules"
+  source = "..//organizations-modules"
 }
 
 inputs = merge(
